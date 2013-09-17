@@ -1,16 +1,15 @@
-//get the repository
+get the repository
 git clone ssh://<user_name>@103.29.60.108:22/home/diunuge/git/redmine/iNexus2014.git
 
-//set username and email
+set username and email
 --global user.name "<user_name>"
 // --global user.name "diunuge"
 --global user.email "<user_email>"
 // --global user.email "diunuge.10@cse.mrt.ac.lk"
 
-//add/modify files
-//create test file 
-//ex: diunuge.txt and put something in it
-echo 'test diunuge' --> diunuge.txt
+add/modify files
+create test file 
+ex: diunuge.txt and put something in it
 
 git add <file_name>
 // git add diunuge.txt
@@ -22,8 +21,3 @@ git remote add origin ssh://<user_name>@103.29.60.108:22/home/diunuge/git/redmin
 // git remote add origin ssh://diunuge@103.29.60.108:22/home/diunuge/git/redmine/iNexus2014.git
 
 git push -u origin master
-
-
-
-//get others changes/ syncronize with remote repository
-git pull
