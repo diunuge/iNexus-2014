@@ -2,9 +2,9 @@
 git clone ssh://<user_name>@103.29.60.108:22/home/diunuge/git/redmine/iNexus2014.git
 
 //set username and email
---global user.name "<user_name>"
+git config --global user.name "<user_name>"
 // --global user.name "diunuge"
---global user.email "<user_email>"
+git config --global user.email "<user_email>"
 // --global user.email "diunuge.10@cse.mrt.ac.lk"
 
 //add/modify files
